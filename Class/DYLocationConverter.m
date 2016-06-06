@@ -82,32 +82,66 @@
     return bdPt;
 }
 
-
+#pragma mark - gcj02FromWgs84
 + (CLLocationCoordinate2D)gcj02FromWgs84:(CLLocationCoordinate2D)coordinate {
     return [self gcj02Encrypt:coordinate];
 }
 
++ (CLLocation *)gcj02LocationFromWgs84:(CLLocation *)location {
+    CLLocationCoordinate2D coordinate = [self gcj02FromWgs84:location.coordinate];
+    return [[CLLocation alloc] initWithLatitude:coordinate.latitude longitude:coordinate.longitude];
+}
+
+#pragma mark - wgs84FromGcj02
 + (CLLocationCoordinate2D)wgs84FromGcj02:(CLLocationCoordinate2D)coordinate {
     return [self gcj02Decrypt:coordinate];
 }
 
++ (CLLocation *)wgs84LocationFromGcj02:(CLLocation *)location {
+    CLLocationCoordinate2D coordinate = [self wgs84FromGcj02:location.coordinate];
+    return [[CLLocation alloc] initWithLatitude:coordinate.latitude longitude:coordinate.longitude];
+}
 
+#pragma mark - bd09FromWgs84
 + (CLLocationCoordinate2D)bd09FromWgs84:(CLLocationCoordinate2D)coordinate {
     CLLocationCoordinate2D gcj02Pt = [self gcj02Encrypt:coordinate];
     return [self bd09Encrypt:gcj02Pt] ;
 }
 
++ (CLLocation *)bd09LocationFromWgs84:(CLLocation *)location {
+    CLLocationCoordinate2D coordinate = [self bd09FromWgs84:location.coordinate];
+    return [[CLLocation alloc] initWithLatitude:coordinate.latitude longitude:coordinate.longitude];
+}
+
+#pragma mark - wgs84FromBd09
++ (CLLocationCoordinate2D)wgs84FromBd09:(CLLocationCoordinate2D)coordinate {
+    CLLocationCoordinate2D gcj02 = [self gcj02FromBd09:coordinate];
+    return [self gcj02Decrypt:gcj02];
+}
+
++ (CLLocation *)wgs84LocationFromBd09:(CLLocation *)location {
+    CLLocationCoordinate2D coordinate = [self wgs84FromBd09:location.coordinate];
+    return [[CLLocation alloc] initWithLatitude:coordinate.latitude longitude:coordinate.longitude];
+}
+
+#pragma mark - bd09FromGcj02
 + (CLLocationCoordinate2D)bd09FromGcj02:(CLLocationCoordinate2D)coordinate {
     return  [self bd09Encrypt:coordinate];
 }
 
++ (CLLocation *)bd09LocationFromGcj02:(CLLocation *)location {
+    CLLocationCoordinate2D coordinate = [self bd09FromGcj02:location.coordinate];
+    return [[CLLocation alloc] initWithLatitude:coordinate.latitude longitude:coordinate.longitude];
+}
+
+#pragma mark - gcj02FromBd09
 + (CLLocationCoordinate2D)gcj02FromBd09:(CLLocationCoordinate2D)coordinate {
     return [self bd09Decrypt:coordinate];
 }
 
-+ (CLLocationCoordinate2D)wgs84FromBd09:(CLLocationCoordinate2D)coordinate {
-    CLLocationCoordinate2D gcj02 = [self gcj02FromBd09:coordinate];
-    return [self gcj02Decrypt:gcj02];
++ (CLLocation *)gcj02LocationFromBd09:(CLLocation *)location {
+    CLLocationCoordinate2D coordinate = [self gcj02FromBd09:location.coordinate];
+    return [[CLLocation alloc] initWithLatitude:coordinate.latitude longitude:coordinate.longitude];
 }
 
 @end

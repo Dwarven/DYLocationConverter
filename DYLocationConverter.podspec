@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                  = 'DYLocationConverter'
-  s.version               = '0.0.1'
+  s.version               = '0.0.2'
   s.summary               = 'A location converter between WGS84 GCJ-02 and BD-09.'
   s.homepage              = 'https://github.com/Dwarven/DYLocationConverter'
   s.ios.deployment_target = '7.0'
