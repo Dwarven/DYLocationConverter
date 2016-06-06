@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D65C805613153B83003E9CA2 /* libPods-DYLocationConverter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F802996716FA2CAB0E2F2A8D /* libPods-DYLocationConverter.a */; };
+		DFE365E61D05809200C9F099 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE365E51D05809200C9F099 /* main.m */; };
+		DFE365E91D05809200C9F099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE365E81D05809200C9F099 /* AppDelegate.m */; };
+		DFE365EC1D05809200C9F099 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE365EB1D05809200C9F099 /* ViewController.m */; };
+		DFE365EF1D05809200C9F099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE365ED1D05809200C9F099 /* Main.storyboard */; };
+		DFE365F11D05809200C9F099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE365F01D05809200C9F099 /* Assets.xcassets */; };
+		DFE365FE1D05826A00C9F099 /* DYLocationConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE365FD1D05826A00C9F099 /* DYLocationConverter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02494C86A25894A046768973 /* Pods-DYLocationConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYLocationConverter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYLocationConverter/Pods-DYLocationConverter.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE365E11D05809200C9F099 /* DYLocationConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYLocationConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE365E51D05809200C9F099 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFE365E71D05809200C9F099 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFE365E81D05809200C9F099 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFE365EA1D05809200C9F099 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFE365EB1D05809200C9F099 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFE365EE1D05809200C9F099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFE365F01D05809200C9F099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFE365F51D05809200C9F099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE365FC1D05826A00C9F099 /* DYLocationConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYLocationConverter.h; sourceTree = "<group>"; };
+		DFE365FD1D05826A00C9F099 /* DYLocationConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYLocationConverter.m; sourceTree = "<group>"; };
+		ED1F307817DA2B2D8A726952 /* Pods-DYLocationConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYLocationConverter.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYLocationConverter/Pods-DYLocationConverter.release.xcconfig"; sourceTree = "<group>"; };
+		F802996716FA2CAB0E2F2A8D /* libPods-DYLocationConverter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DYLocationConverter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE365DE1D05809200C9F099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65C805613153B83003E9CA2 /* libPods-DYLocationConverter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB3BD669C3BEA12EFEF9A94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F802996716FA2CAB0E2F2A8D /* libPods-DYLocationConverter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DB8D454A362EF34A7C3E775 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02494C86A25894A046768973 /* Pods-DYLocationConverter.debug.xcconfig */,
+				ED1F307817DA2B2D8A726952 /* Pods-DYLocationConverter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFE365D81D05809200C9F099 = {
+			isa = PBXGroup;
+			children = (
+				DFE365FB1D05825E00C9F099 /* Class */,
+				DFE365E31D05809200C9F099 /* DYLocationConverter */,
+				DFE365E21D05809200C9F099 /* Products */,
+				2DB8D454A362EF34A7C3E775 /* Pods */,
+				0DB3BD669C3BEA12EFEF9A94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE365E21D05809200C9F099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE365E11D05809200C9F099 /* DYLocationConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE365E31D05809200C9F099 /* DYLocationConverter */ = {
+			isa = PBXGroup;
+			children = (
+				DFE365E71D05809200C9F099 /* AppDelegate.h */,
+				DFE365E81D05809200C9F099 /* AppDelegate.m */,
+				DFE365EA1D05809200C9F099 /* ViewController.h */,
+				DFE365EB1D05809200C9F099 /* ViewController.m */,
+				DFE365ED1D05809200C9F099 /* Main.storyboard */,
+				DFE365F01D05809200C9F099 /* Assets.xcassets */,
+				DFE365F51D05809200C9F099 /* Info.plist */,
+				DFE365E41D05809200C9F099 /* Supporting Files */,
+			);
+			path = DYLocationConverter;
+			sourceTree = "<group>";
+		};
+		DFE365E41D05809200C9F099 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE365E51D05809200C9F099 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE365FB1D05825E00C9F099 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DFE365FC1D05826A00C9F099 /* DYLocationConverter.h */,
+				DFE365FD1D05826A00C9F099 /* DYLocationConverter.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE365E01D05809200C9F099 /* DYLocationConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE365F81D05809200C9F099 /* Build configuration list for PBXNativeTarget "DYLocationConverter" */;
+			buildPhases = (
+				BF6F6A7903B68EF090AC81F5 /* [CP] Check Pods Manifest.lock */,
+				DFE365DD1D05809200C9F099 /* Sources */,
+				DFE365DE1D05809200C9F099 /* Frameworks */,
+				DFE365DF1D05809200C9F099 /* Resources */,
+				DC6E3AE8B51D3C14D1F14977 /* [CP] Embed Pods Frameworks */,
+				0D8F8180A92F56B08E792148 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYLocationConverter;
+			productName = DYLocationConverter;
+			productReference = DFE365E11D05809200C9F099 /* DYLocationConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE365D91D05809200C9F099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Dwarven;
+				TargetAttributes = {
+					DFE365E01D05809200C9F099 = {
+						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DFE365DC1D05809200C9F099 /* Build configuration list for PBXProject "DYLocationConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFE365D81D05809200C9F099;
+			productRefGroup = DFE365E21D05809200C9F099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE365E01D05809200C9F099 /* DYLocationConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFE365DF1D05809200C9F099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE365F11D05809200C9F099 /* Assets.xcassets in Resources */,
+				DFE365EF1D05809200C9F099 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D8F8180A92F56B08E792148 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYLocationConverter/Pods-DYLocationConverter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6F6A7903B68EF090AC81F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6E3AE8B51D3C14D1F14977 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DYLocationConverter/Pods-DYLocationConverter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE365DD1D05809200C9F099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE365EC1D05809200C9F099 /* ViewController.m in Sources */,
+				DFE365E91D05809200C9F099 /* AppDelegate.m in Sources */,
+				DFE365FE1D05826A00C9F099 /* DYLocationConverter.m in Sources */,
+				DFE365E61D05809200C9F099 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFE365ED1D05809200C9F099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE365EE1D05809200C9F099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFE365F61D05809200C9F099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFE365F71D05809200C9F099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFE365F91D05809200C9F099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02494C86A25894A046768973 /* Pods-DYLocationConverter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DYLocationConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dwarven.DYLocationConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFE365FA1D05809200C9F099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1F307817DA2B2D8A726952 /* Pods-DYLocationConverter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DYLocationConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dwarven.DYLocationConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE365DC1D05809200C9F099 /* Build configuration list for PBXProject "DYLocationConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE365F61D05809200C9F099 /* Debug */,
+				DFE365F71D05809200C9F099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE365F81D05809200C9F099 /* Build configuration list for PBXNativeTarget "DYLocationConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE365F91D05809200C9F099 /* Debug */,
+				DFE365FA1D05809200C9F099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFE365D91D05809200C9F099 /* Project object */;
+}

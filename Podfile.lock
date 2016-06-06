@@ -1,0 +1,12 @@
+PODS:
+  - DYCoordinateInChina (0.0.4)
+
+DEPENDENCIES:
+  - DYCoordinateInChina
+
+SPEC CHECKSUMS:
+  DYCoordinateInChina: 0b67ce92eb6a814f9266addbed8e2cc1d2837bc7
+
+PODFILE CHECKSUM: e76a0a31c68f3db5cad521b1bc3d55c86c41d9ba
+
+COCOAPODS: 1.0.1
