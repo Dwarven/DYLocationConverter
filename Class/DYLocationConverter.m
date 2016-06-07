@@ -58,7 +58,7 @@
     double dLon = gPt.longitude - coordinate.longitude;
     CLLocationCoordinate2D pt;
     pt.latitude = coordinate.latitude - dLat;
-    pt.longitude = coordinate.latitude - dLon;
+    pt.longitude = coordinate.longitude - dLon;
     return pt;
 }
 
