@@ -4,9 +4,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/DYLocationConverter.svg?style=flat)](http://cocoadocs.org/docsets/DYLocationConverter)
 [![Twitter](https://img.shields.io/badge/twitter-@DwarvenYang-blue.svg?style=flat)](http://twitter.com/DwarvenYang)
 
-A location converter between WGS84 GCJ-02 and BD-09.
-
-Wiki: [WGS84](https://wikipedia.org/wiki/WGS84)、[GCJ-02](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China#GCJ-02)、[BD-09](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China#BD-09)
+A location converter between [WGS84](https://wikipedia.org/wiki/WGS84) [GCJ-02](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China#GCJ-02) and [BD-09](https://en.wikipedia.org/wiki/Restrictions_on_geographic_data_in_China#BD-09).
 
 # Podfile
 To integrate DYLocationConverter into your Xcode project using CocoaPods, specify it in your `Podfile`:
