@@ -35,7 +35,7 @@
         CLLocationCoordinate2D resPoint;
         double ggLat = coordinate.latitude;
         double ggLon = coordinate.longitude;
-        double dLat = [self transformLat:(ggLon - 105.0)bdLon:(ggLat - 35.0)];
+        double dLat = [self transformLat:(ggLon - 105.0) bdLon:(ggLat - 35.0)];
         double dLon = [self transformLon:(ggLon - 105.0) bdLon:(ggLat - 35.0)];
         double radLat = ggLat / 180.0 * M_PI;
         double magic = sin(radLat);
